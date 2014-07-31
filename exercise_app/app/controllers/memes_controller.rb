@@ -7,6 +7,7 @@ class MemesController < ActionController::Base
   end
 
   def new
+  	@meme = Meme.new
   end
 
   def create
