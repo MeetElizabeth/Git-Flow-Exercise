@@ -1,6 +1,7 @@
 class MemesController < ActionController::Base
 
   def index
+  	@memes = Meme.all
   end
 
   def show
